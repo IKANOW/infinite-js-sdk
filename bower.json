@@ -1,0 +1,38 @@
+{
+  "name": "infinite-js-sdk",
+  "description": "Javascript library for communicating with the Ikanow Infinite API",
+  "version": "0.1.9",
+  "main": [
+    "dist/infinite-js-sdk.js"
+  ],
+  "dependencies": {
+    "angular": "~1.4",
+    "sprintf": "^1.0.3",
+    "jshashes": "^1.0.5",
+    "moment": "~2.11.1",
+    "lodash": "^4.1"
+  },
+  "devDependencies": {
+  },
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "ikanow",
+    "infinite",
+    "particles"
+  ],
+  "authors": [
+    "Ikanow LLC (http://www.ikanow.com)"
+  ],
+  "license": "AFL-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}

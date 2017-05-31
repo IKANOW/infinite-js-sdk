@@ -1,0 +1,33 @@
+{
+  "name": "infinite-js-sdk",
+  "version": "0.1.9",
+  "description": "Javascript library for communicating with the Ikanow Infinite API",
+  "author": "Mike Grill <mgrill@ikanow.com>",
+  "main": "dist/infinite-js-sdk.*",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/ikanow/infinite-js-sdk.git"
+  },
+  "keywords": [
+    "ikanow",
+    "infinite"
+  ],
+  "dependencies": {
+    "angular": "~1.4",
+    "jshashes": "^1.0.5",
+    "lodash": "~4.1",
+    "sprintf-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-angular-builder": "^0.5.2",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-uglify": "^0.10.1",
+	"grunt-contrib-watch": "^0.6.1",
+    "grunt-express": "^1.4.1",
+    "grunt-ngdocs": "git://github.com/grillion/grunt-ngdocs.git#bootstrap3"
+  },
+  "license": "AFL-2.0",
+  "private": true
+}
